@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" >
+    
+</head>
+<body>
+    <!-- 01 -->
+    <div>
+        <h4>Exercise 1</h4>
+        <h5>Buatlah sebuah object hewan yang berisikan:</h5>
+        <pre>
+        - ciri-ciri (atribute) :
+            nama: String
+            kaki: Number
+            warna: Array
+            spesies: String (mamalia/unggas/dll)
+            makanan: Array
+        - keahliannya (method) :
+            terbang / loncat / berburu / dll
+
+        </pre>
+        <h5>Tampilkan dengan console.log seperti ini, Contoh :</h5>
+        <p>
+            Nama: Kucing
+            Kaki :  4
+            Spesies: Mamalia
+            Warna: oren, putih, item
+            Makanan : Ikan, Ayam
+            Suara: Miaaaaw
+        </p>
+    </div>
+    <!-- 02 -->
+    <div>
+        <h4>Exercise 2</h4>
+        <pre>
+            const data = 
+            [
+                {
+                    name: ‘Alpha’,
+                    class: ‘Dragon’,
+                    club: ['Bola', 'Bulutangkis']
+                },
+                {
+                    name: Beta,
+                    class: ‘Lizard’,
+                    club: ['Membaca', 'Bulutangkis']
+                },
+            ]
+        </pre>
+        <p>
+            Tampilkanlah seperti ini
+            Alpha ada di kelas Dragon, dia mengikuti club Bola, Bulutangkis 
+            Beta ada di kelas Lizard, dia mengikuti club Membaca, Bulutangkis
+
+            ${data.name} ada di kelas ${data.class}, dia mengikuti club {data.club}
+        </p>
+    </div>
+    <!-- 03 -->
+    <div>
+        <h4>Exercise 3</h4>
+        <pre>
+            let todos = [
+            {id: 1, todo: "belajar coding"},
+            {id: 2, todo: "nanti tidur"}
+            ]
+        </pre>
+        <p>Buatlah function CRUD sederhana pada data di atas</p>
+        <h6>
+            printAll(), hasil:
+            1, "belajar coding"
+            2, "nanti tidur"
+        </h6>
+        <h6>
+            printByID(id), hasil
+            1, "belajar coding"
+        </h6>
+        <h6>
+            add(newTodo), hasil
+            1, "belajar coding"
+            2, "nanti tidur"
+            3, "ngerjain tugas"
+        </h6>
+        <h6>
+            deleteByID(id), hasil
+            1, "belajar coding"
+            3, "ngerjain tugas"
+        </h6>
+        <h6>
+            updateByID(newTodo), hasil
+            1, "belajar CRUD"
+            3, "ngerjain tugas"
+        </h6>
+    </div>
+    <!-- 04 -->
+    <div>
+        <h4>Exercise 4</h4>
+        <p>
+            Buatlah tampilan buah menggunakan array of object
+            Data yang perlu ditampilkan
+            - Nama, warna, nama latin, tipe biji, gambar buah
+        </p>
+        <img src="./Picture.png" alt="buah single" />
+        <img src="./Picture2.png" alt="buah kelompok" />
+    </div>
+    
+
+    <script src="./javascript.js" ></script>
+</body>
+</html>
