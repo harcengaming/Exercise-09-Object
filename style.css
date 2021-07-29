@@ -1,0 +1,20 @@
+#buah {
+    width: 400px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: rgb(231, 18, 18);
+    font-size: large;
+    font-family: Georgia;
+    padding: 1%;
+}
+
+#buah img {
+    width: 100%;
+}
+
+#buah p {
+    width: 100px;
+}
+
